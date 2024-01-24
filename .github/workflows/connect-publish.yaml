@@ -16,4 +16,4 @@ jobs:
           api-key: ${{ secrets.CONNECT_API_KEY }}
           access-type: logged_in
           dir: |
-            .:gitbacked_rmarkdown
+            .:connect_cicd_test
