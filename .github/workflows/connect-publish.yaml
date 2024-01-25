@@ -12,7 +12,7 @@ jobs:
       - name: Publish Connect content
         uses: rstudio/actions/connect-publish@main
         with:
-          url: https://colorado.posit.co
+          url: https://colorado.posit.co/rsc
           api-key: ${{ secrets.CONNECT_API_KEY }}
           access-type: logged_in
           dir: |
